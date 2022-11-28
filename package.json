@@ -1,0 +1,25 @@
+{
+  "name": "dmt_bot_client",
+  "version": "1.0.0",
+  "description": "MyDMT.ru client",
+  "main": "lib/index.js",
+  "types": "./src/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc --build ./tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VeeDock/DMT_Bot_Client.git"
+  },
+  "author": "VDV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VeeDock/DMT_Bot_Client/issues"
+  },
+  "homepage": "https://github.com/VeeDock/DMT_Bot_Client#readme",
+  "devDependencies": {
+    "@types/node": "^18.8.4"
+  }
+}

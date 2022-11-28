@@ -1,0 +1,1 @@
+export default function (dmt_token: string): Promise<string> 
